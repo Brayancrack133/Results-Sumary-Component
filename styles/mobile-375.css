@@ -1,3 +1,7 @@
+body{
+  min-height:0vh;
+  
+}
 .container {
   width: 100%;
   flex-direction: column;
@@ -10,8 +14,8 @@
   width: 100%;
   padding: 0px;
   border-radius: 0px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
 }
 
 .left-text {
@@ -19,7 +23,7 @@
   text-align: center;
 }
 .left p {
-  width: 250px;
+  width: 295px;
   height: 70px;
 }
 

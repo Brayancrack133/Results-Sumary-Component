@@ -1,4 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  font-family: "Hanken Grotesk";
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,6 +16,7 @@ body {
   width: 600px;
   justify-content: center;
   border-radius: 20px;
+  padding: 100%;
   /*
   box-shadow: 1px 0px 20px 2px rgb(0, 0, 0, 0.4);*/
 }
