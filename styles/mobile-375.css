@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  flex-direction: column;
+  border-radius: 0px;
+  overflow: hidden;
+  padding: 0;
+}
+
+.left {
+  width: 100%;
+  padding: 0px;
+  border-radius: 0px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.left-text {
+  padding: 20px;
+  text-align: center;
+}
+.left p {
+  width: 250px;
+  height: 70px;
+}
+
+.right {
+  padding: 0;
+  width: 80%;
+  margin: 0 auto;
+}
