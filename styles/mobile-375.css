@@ -1,7 +1,3 @@
-body{
-  min-height:0vh;
-  
-}
 :root {
   --light-red: hsl(0, 100%, 67%);
   --orange-yellow: hsl(39, 100%, 56%);
