@@ -4,19 +4,16 @@
 }
 
 body {
-  font-family: "Hanken Grotesk";
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
-
 .container {
   display: flex;
   width: 600px;
   justify-content: center;
   border-radius: 20px;
-  padding: 100%;
   /*
   box-shadow: 1px 0px 20px 2px rgb(0, 0, 0, 0.4);*/
 }
@@ -48,36 +45,22 @@ body {
   /* box-shadow: inset 1px 1px 12px 0px hsla(256, 72%, 46%, 1);*/
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin: 0 auto;
-}
-.big-score {
-  color: white;
-  font-weight: bold;
-  font-size: 60px;
-}
-
-.left h3 {
-  color: white;
-  text-align: center;
-}
-.left p {
-  width: 200px;
-  height: 70px;
-  color: hsl(241, 100%, 89%);
-  text-align: center;
+  max-width: 600px;
+  flex-direction: row;
+  height: 100%;
   margin: auto;
 }
-/*
-.score-con{
-
+.score-section {
+  border-radius: 25px;
 }
-/*
-  Continue
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-  */
+.transparent {
+  font-size: 15px;
+}
+
+.summary {
+  height: auto;
+  max-width: 100%;
+  width: 700px;
+  transform: scale(0.8);
+  padding: 0;
+}
